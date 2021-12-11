@@ -9,7 +9,7 @@ public class Utils {
         return valorMedia;
     }
 
-    public float calcularMedia(EditText notaP, EditText notaS, EditText notaT, EditText notaQ ){
+    public float calcularMedia(EditText notadoPrimeiroB, EditText notaS, EditText notaT, EditText notaQ ){
         float notaPrimeiroConvertida = converteValor(notaP);
         float notaSegundoConvertida = converteValor(notaS);
         float notaTerceiroConvertida = converteValor(notaT);
